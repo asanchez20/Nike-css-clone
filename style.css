@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+nav ul li{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 40px;
+}
+
+nav ul li a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+.logo{
+    height: 50px;
+    padding-right: 200px;
+}
+
+.content-title{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.ja-shoes{
+    height: 1000px;
+    width: 100%;
+    padding: 30px 20px 100px 20px;
+}
+
+.ja-title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -50px;
+    font-family: 'Gloock';
+    
+}
+
+.ja-description{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.ja-button{
+    display: flex;
+    padding-left: 42%;
+}
+
+button{
+    width: 100px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    align-items: center;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
